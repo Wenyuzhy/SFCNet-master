@@ -15,10 +15,10 @@ python eval.py
 ```
 
 ### Training
-Train on RAF-DB dataset:
+Train on LOLv1 dataset:
 
 ```
-python train.py --gpu 0 --batch_size 16
+python train.py --batch_size 16 --lol_v1 True
 ```
 
 
